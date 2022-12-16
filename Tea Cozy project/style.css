@@ -1,0 +1,214 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+    opacity: 0.8;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    z-index: 5;
+}
+
+.header {
+    display: flex;
+    padding-left: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 50px;
+}
+
+ul li {
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+}
+
+li {
+    padding: 5px 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 52%;
+    padding-left: 75px;
+}
+
+h1 {
+    margin: 5px 0;
+}
+
+
+ /* ********************SECTION 1************************ */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container1 {
+    width: 1200px;
+    height: 700px;
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-image: url(./img-mission-background.jpg);
+    text-align: center;
+    opacity: 0.7;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+h2 {
+    margin: 1%;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin: 1%;
+}
+
+/* *****************SECTION 2******************* */
+
+#section2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.carroussel {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    text-align: center;
+    margin: 10% 1% 1% 1%;
+}
+
+.baseline {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* ***********************SECTION3*********************** */
+
+#section3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./img-locations-background.webp);
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.downtown {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.east {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.oakdale {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+p {
+    padding: 10px;
+}
+
+/* ***********************FOOTER****************** */
+
+.footer {
+    height: 200px;
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+}
